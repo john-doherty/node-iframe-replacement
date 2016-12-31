@@ -15,18 +15,20 @@ $ npm install --save node-iframe-replacement
 
 ## Example usage
 
-The example below will request the [BBC News](http://www.bbc.co.uk/news) home page and replace the contents of **div[data-entityid="container-top-stories#1"]** with the contents of the view
+The example below will request the [BBC News](http://www.bbc.co.uk/news) home page and replace the contents of **div[data-entityid="container-top-stories#1"]** with the contents of our fake-news view:
+
+_I left the express logic out for readability, you can view the actual example [here](example/server.js)_
 
 ```js
 var iframeReplacement = require('node-iframe-replacement');
 
-// replace res.render with iframe replacement version
+// add iframe replacement to express as middleware (adds res.merge method)
 app.use(iframeReplacement);
 
 // create a regular express route
 app.get('/', function(req, res){
 
-    // respond to this request with our fake-new content embedded within the BBC News home page
+    // respond to this request with our fake-news content embedded within the BBC News home page
     res.merge('fake-news', {
        sourceUrl: 'http://www.bbc.co.uk/news',                              // external url to fetch
        sourcePlaceholder: 'div[data-entityid="container-top-stories#1"]',   // css selector to inject our content into
@@ -35,7 +37,7 @@ app.get('/', function(req, res){
 });
 ```
 
-If you pass a function as the transform property ```transform: function($, model) {}``` - the function will be called prior to rendering, allowing you to inject title tags or html attributes.
+If you pass a function as the transform property ```transform: function($, model) {}``` - the function will be called prior to rendering, allowing you to inject title tags, html attributes etc.
 
 ## fake-news html
 
@@ -63,7 +65,7 @@ If you pass a function as the transform property ```transform: function($, model
 
 ## Auto base tag injection
 
-To ensure the source scripts, styles and images load witin your site a base tag is automatically injected ```<base href="http://www.bbc.co.uk/news" />```.
+To ensure the source scripts, styles and images load within your site a base tag is automatically injected ```<base href="http://www.bbc.co.uk/news" />```.
 
 Because of this, you need to ensure all the links within your conent are absolute.
 
