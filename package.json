@@ -4,7 +4,7 @@
   "description": "NodeJS + Express replacement for the HTML iframe",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified yet!\" && exit 1"
+    "example": "node example/server.js"
   },
   "repository": {
     "type": "git",
@@ -33,9 +33,7 @@
   "dependencies": {
     "cheerio": "^0.20.0",
     "node-cache": "^3.2.1",
-    "request-promise": "^3.0.0"
-  },
-  "devDependencies": {
+    "request-promise": "^3.0.0",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0"
   }

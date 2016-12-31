@@ -69,6 +69,14 @@ The `$` passed to your transform method is a JQuery like object using [cheerio](
 
 ![alt text](docs/bbc-news-fake-homepage.png "BBC News actual homepage")
 
+### Run the example
+
+You can try the example for yourself using the following command:
+
+```
+node ./node_modules/node-iframe-replacement/example/server.js
+```
+
 ## Auto base tag injection
 
 To ensure the source scripts, styles and images load within your site a base tag is automatically injected ```<base href="http://www.bbc.co.uk/news" />```.

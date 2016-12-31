@@ -30,7 +30,9 @@ function Server() {
     });
 
     // start the server
-    app.listen(8080);
+    app.listen(8080, function(){
+        console.log('Server running... Visit http://localhost:8080 in your browser');
+    });
 }
 
 module.exports = new Server();
