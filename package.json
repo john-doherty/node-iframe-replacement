@@ -1,0 +1,42 @@
+{
+  "name": "node-iframe-replacement",
+  "version": "0.0.1",
+  "description": "NodeJS + Express replacement for the HTML iframe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified yet!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/john-doherty/node-iframe-replacement.git"
+  },
+  "keywords": [
+    "node",
+    "iframe",
+    "replacement",
+    "express",
+    "alternative"
+  ],
+  "author": {
+    "name": "John Doherty",
+    "email": "contact@johndoherty.info",
+    "url": "https://twitter.com/CambridgeMVP"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-doherty/node-iframe-replacement/issues"
+  },
+  "homepage": "https://github.com/john-doherty/node-iframe-replacement#readme",
+  "engines": {
+    "node": ">= 6.9.2"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "node-cache": "^3.2.1",
+    "request-promise": "^3.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  }
+}
