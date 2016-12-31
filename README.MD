@@ -13,11 +13,13 @@ You can now argue that your web app can remain synced with the corperate website
 $ npm install --save node-iframe-replacement
 ```
 
-## Example usage
+## Usage
+
+### Example server
 
 The example below will request the [BBC News](http://www.bbc.co.uk/news) home page and replace the contents of **div[data-entityid="container-top-stories#1"]** with the contents of our fake-news view:
 
-_I left the express logic out for readability, you can view the actual example [here](example/server.js)_
+_express logic excluded to improve readability, you can view the full example implementation [here](example/server.js)_
 
 ```js
 var iframeReplacement = require('node-iframe-replacement');
@@ -30,16 +32,20 @@ app.get('/', function(req, res){
 
     // respond to this request with our fake-news content embedded within the BBC News home page
     res.merge('fake-news', {
-       sourceUrl: 'http://www.bbc.co.uk/news',                              // external url to fetch
-       sourcePlaceholder: 'div[data-entityid="container-top-stories#1"]',   // css selector to inject our content into
-       transform: null                                                      // pass function here to intercept the transofrm html prior to merging
+        // external url to fetch
+       sourceUrl: 'http://www.bbc.co.uk/news',
+       // css selector to inject our content into
+       sourcePlaceholder: 'div[data-entityid="container-top-stories#1"]',
+       // pass a function here to intercept the source html prior to merging
+       transform: null
     });
 });
 ```
 
 If you pass a function as the transform property ```transform: function($, model) {}``` - the function will be called prior to rendering, allowing you to inject title tags, html attributes etc.
+The `$` passed to your transform method is a JQuery like object using [cheerio](https://github.com/cheeriojs/cheerio#cheerio), removing the need to parse strings.
 
-## fake-news html
+### Example fake-news html
 
 ```html
 <div style="margin: 0 0 0 20px; overflow: auto;">
@@ -55,11 +61,11 @@ If you pass a function as the transform property ```transform: function($, model
 </div>
 ```
 
-## Input
+### Example input
 
 ![alt text](docs/bbc-news-actual-homepage.png "BBC News actual homepage")
 
-## Output
+### Example output
 
 ![alt text](docs/bbc-news-fake-homepage.png "BBC News actual homepage")
 
@@ -73,7 +79,7 @@ Because of this, you need to ensure all the links within your conent are absolut
 
 This project is a rethought, rebranded, relaunched version of my badly named [express-render-template](https://www.npmjs.com/package/express-render-template) module released in Arpil 2016.
 
-## Note on Patches/Pull Requests
+## Notes on Pull Requests & Patches
 
 * Fork the project
 * Make your feature addition or bug fix
