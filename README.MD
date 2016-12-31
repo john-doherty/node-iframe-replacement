@@ -4,7 +4,7 @@ Imagine the scenario: you've built a lovely web app for a business, who later in
 
 [node-iframe-replacement](https://github.com/john-doherty/node-iframe-replacement) is the compromise. A small node server that grabs the source code of an external website and injects your content - thus allowing you to host your app on a subdomain and without an iframe. Changes to the external site _(navigation etc)_ are automatically picked up every 5 minutes and reflected in your app.
 
-You can now argue that you're web app can remain synced with the corp website without an iframe.
+You can now argue that your web app can remain synced with the corperate website look/feel without an iframe.
 
 
 ## Installation
