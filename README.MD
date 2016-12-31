@@ -64,6 +64,10 @@ To ensure the source scripts, styles and images load witin your site a base tag 
 
 Because of this, you need to ensure all the links within your conent are absolute.
 
+## History
+
+This project is a rethought, rebranded, relaunched version of my badly named [express-render-template](https://www.npmjs.com/package/express-render-template) module released in Arpil 2016.
+
 ## Note on Patches/Pull Requests
 
 * Fork the project
