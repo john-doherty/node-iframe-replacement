@@ -77,6 +77,8 @@ You can try the example for yourself using the following command:
 node ./node_modules/node-iframe-replacement/example/server.js
 ```
 
+Then visit [http://localhost:8080](http://localhost:8080) in your browser.
+
 ## Auto base tag injection
 
 To ensure the source scripts, styles and images load within your site a base tag is automatically injected ```<base href="http://www.bbc.co.uk/news" />```.
