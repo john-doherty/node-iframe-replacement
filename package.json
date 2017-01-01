@@ -4,7 +4,8 @@
   "description": "NodeJS + Express replacement for the HTML iframe",
   "main": "index.js",
   "scripts": {
-    "example": "node example/server.js"
+    "example": "node example/server.js",
+    "test": "./node_modules/.bin/jasmine-node --verbose --junitreport test"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,10 @@
     "request-promise": "^3.0.0",
     "express": "^4.14.0",
     "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "nock": "^9.0.2",
+    "supertest": "^2.0.1"
   }
 }
