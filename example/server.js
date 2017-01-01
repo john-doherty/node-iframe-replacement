@@ -1,4 +1,5 @@
-var express = require('express'),
+var path = require('path'),
+    express = require('express'),
     handlebars = require('express-handlebars'),
     iframeReplacement = require('../index.js');
 
@@ -16,7 +17,7 @@ function Server() {
     }).engine);
 
     // let express know how to locate the views/templates
-    app.set('views', './example/views');
+    app.set('views', path.resolve(__dirname, 'views'));
     app.set('view engine', 'hbs');
 
     // create simple route to test our fake news
