@@ -1,4 +1,4 @@
-# node-iframe-replacement
+# node-iframe-replacement [![Run Status](https://api.shippable.com/projects/5869721607d5371300747182/badge?branch=master)](https://app.shippable.com/projects/5869721607d5371300747182)
 
 Imagine the scenario: you've built a lovely web app for a business, who later insists it goes live within an iframe of their corp website. You resist, but you're ultimatley forced to bastardize your app to make it work. 
 
