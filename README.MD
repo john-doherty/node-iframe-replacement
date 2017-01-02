@@ -1,6 +1,7 @@
 # node-iframe-replacement
 [![npm version](https://badge.fury.io/js/node-iframe-replacement.svg)](https://badge.fury.io/js/node-iframe-replacement) [![Run Status](https://api.shippable.com/projects/5869721607d5371300747182/badge?branch=master)](https://app.shippable.com/projects/5869721607d5371300747182)
 
+## Motivation
 Imagine the scenario: you've built a lovely web app for a business, who later insists it goes live within an iframe of their corp website. You resist, but you're ultimatley forced to bastardize your app to make it work. 
 
 [node-iframe-replacement](https://github.com/john-doherty/node-iframe-replacement) is the compromise. A small node server that grabs the source code of an external website and injects your content - thus allowing you to host your app on a subdomain and without an iframe. Changes to the external site _(navigation etc)_ are automatically picked up every 5 minutes and reflected in your app.
@@ -86,15 +87,19 @@ To ensure the source scripts, styles and images load within your site a base tag
 
 Because of this, you need to ensure all the links within your conent are absolute.
 
-## History
-
-This project is a rethought, rebranded, relaunched version of my badly named [express-render-template](https://www.npmjs.com/package/express-render-template) module released in Arpil 2016.
-
 ## Notes on Pull Requests & Patches
 
 * Fork the project
 * Make your feature addition or bug fix
 * Send me a pull request
+
+## Bugs
+
+Please raise bugs via the [node-iframe-replacement issue tracker](https://github.com/john-doherty/node-iframe-replacement/issues) and, if possible, provide enough information to allow the issue to be reproduced.
+
+## History
+
+This project is a rethought, rebranded, relaunched version of my badly named [express-render-template](https://www.npmjs.com/package/express-render-template) module released in Arpil 2016.
 
 ## License
 
