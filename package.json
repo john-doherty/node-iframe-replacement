@@ -1,6 +1,6 @@
 {
   "name": "node-iframe-replacement",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "NodeJS + Express replacement for the HTML iframe",
   "main": "index.js",
   "scripts": {
@@ -40,6 +40,9 @@
     "request-promise": "^3.0.0"
   },
   "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
     "jasmine-node": "^1.14.5",
     "nock": "^9.0.2",
     "supertest": "^2.0.1"

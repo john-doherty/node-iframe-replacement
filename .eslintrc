@@ -1,0 +1,48 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "es6": true,
+    "jasmine": true,
+    "node": true,
+    "browser": false
+  },
+  "globals": {
+    "spyOn": true,
+    "window": true,
+    "document": true,
+    "app": true,
+    "helpers": true
+  },
+  "rules": {
+    "brace-style": ["error", "stroustrup"],
+    "comma-dangle": ["error", "never"],
+    "func-names": 0,
+    "indent": ["error", 4, { "SwitchCase": 1 }],
+    "max-len": [2, 180, 4, {
+      "ignoreUrls": true,
+      "ignoreComments": false
+    }],
+    "new-cap": ["error", {"capIsNewExceptions": ["Router", "ObjectId", "DEBUG"], "properties": false}],
+    "no-underscore-dangle": 0,
+    "no-unused-vars": ["warn"],
+    "no-use-before-define": ["error", { "functions": false }],
+    "no-var": ["off"],
+    "one-var": ["off"],
+    "vars-on-top": ["off"],
+    "no-param-reassign": ["off"],
+    "padded-blocks": 0,
+    "prefer-template": ["off"],
+    "prefer-arrow-callback": ["off"],
+    "require-jsdoc": ["warn", {
+      "require": {
+        "FunctionDeclaration": true,
+        "MethodDefinition": true,
+        "ClassDeclaration": true
+      }
+    }],
+    "object-shorthand": ["error", "never"],
+    "space-before-function-paren": "off",
+    "strict": "off",
+    "valid-jsdoc": ["error"]
+  }
+}
