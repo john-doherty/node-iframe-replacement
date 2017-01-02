@@ -1,6 +1,6 @@
 var path = require('path'),
     express = require('express'),
-    handlebars = require('express-handlebars'),
+    exphbs = require('express-handlebars'),
     iframeReplacement = require('../index.js');
 
 function Server() {
@@ -12,9 +12,7 @@ function Server() {
     app.use(iframeReplacement);
 
     // add handlebars view engine (you can use any)
-    app.engine('.hbs', handlebars.create({ 
-        extname: '.hbs' 
-    }).engine);
+    app.engine('hbs', exphbs());
 
     // let express know how to locate the views/templates
     app.set('views', path.resolve(__dirname, 'views'));
