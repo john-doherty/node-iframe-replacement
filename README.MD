@@ -87,15 +87,8 @@ To ensure the source scripts, styles and images load within your site a base tag
 
 Because of this, you need to ensure all the links within your conent are absolute.
 
-## Notes on Pull Requests & Patches
-
-* Fork the project
-* Make your feature addition or bug fix
-* Send me a pull request
-
-## Bugs
-
-Please raise bugs via the [node-iframe-replacement issue tracker](https://github.com/john-doherty/node-iframe-replacement/issues) and, if possible, provide enough information to allow the issue to be reproduced.
+## Contributing
+Everyone is very welcome to contribute to this project. You can contribute just by submitting bugs or suggesting improvements by [opening an issue on GitHub](https://github.com/john-doherty/node-iframe-replacement/issues).
 
 ## History
 
@@ -103,4 +96,4 @@ This project is a rethought, rebranded, relaunched version of my badly named [ex
 
 ## License
 
-[ISC License](LICENSE) &copy; 2016 [John Doherty](https://twitter.com/CambridgeMVP)
+Licensed under [ISC License](LICENSE) &copy; [John Doherty](https://twitter.com/CambridgeMVP)

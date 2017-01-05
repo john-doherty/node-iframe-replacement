@@ -4,12 +4,10 @@
     "es6": true,
     "jasmine": true,
     "node": true,
-    "browser": false
+    "browser": true
   },
   "globals": {
     "spyOn": true,
-    "window": true,
-    "document": true,
     "app": true,
     "helpers": true
   },
