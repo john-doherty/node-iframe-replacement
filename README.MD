@@ -88,6 +88,7 @@ To ensure the source scripts, styles and images load within your site a base tag
 Because of this, you need to ensure all the links within your conent are absolute.
 
 ## Contributing
+
 Everyone is very welcome to contribute to this project. You can contribute just by submitting bugs or suggesting improvements by [opening an issue on GitHub](https://github.com/john-doherty/node-iframe-replacement/issues).
 
 ## History
