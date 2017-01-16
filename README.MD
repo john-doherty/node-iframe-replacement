@@ -1,5 +1,5 @@
 # node-iframe-replacement
-[![npm version](https://badge.fury.io/js/node-iframe-replacement.svg)](https://badge.fury.io/js/node-iframe-replacement) [![Run Status](https://api.shippable.com/projects/5869721607d5371300747182/badge?branch=master)](https://app.shippable.com/projects/5869721607d5371300747182)
+[![Shippable branch](https://img.shields.io/shippable/5869721607d5371300747182/master.svg)](https://app.shippable.com/projects/5869721607d5371300747182) [![npm](https://img.shields.io/npm/dt/node-iframe-replacement.svg)](https://www.npmjs.com/package/node-iframe-replacement) [![Linked In](https://img.shields.io/badge/Linked-In-blue.svg)](https://www.linkedin.com/in/john-i-doherty) [![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow&style=plastic)](https://twitter.com/CambridgeMVP)
 
 ## Motivation
 Imagine the scenario: you've built a lovely web app for a business, who later insists it goes live within an iframe of their corp website. You resist, but you're ultimatley forced to bastardize your app to make it work. 
@@ -89,7 +89,7 @@ Because of this, you need to ensure all the links within your conent are absolut
 
 ## Contributing
 
-Everyone is very welcome to contribute to this project. You can contribute just by submitting bugs or suggesting improvements by [opening an issue on GitHub](https://github.com/john-doherty/node-iframe-replacement/issues).
+Everyone is  welcome to contribute to this project. You can contribute just by submitting bugs or suggest improvements by [opening an issue](https://github.com/john-doherty/node-iframe-replacement/issues) on GitHub.
 
 ## History
 
