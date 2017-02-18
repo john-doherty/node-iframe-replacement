@@ -97,4 +97,4 @@ This project is a rethought, rebranded, relaunched version of my badly named [ex
 
 ## License
 
-Licensed under [ISC License](LICENSE) &copy; [John Doherty](https://twitter.com/CambridgeMVP)
+Licensed under [ISC License](LICENSE) &copy; [John Doherty](http://www.johndoherty.info)
