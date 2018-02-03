@@ -1,7 +1,7 @@
 {
   "name": "node-iframe-replacement",
   "version": "0.1.1",
-  "description": "NodeJS + Express replacement for the HTML iframe",
+  "description": "Node & express replacement for the HTML iframe",
   "main": "index.js",
   "scripts": {
     "example": "node example/server.js",

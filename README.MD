@@ -1,5 +1,5 @@
 # node-iframe-replacement
-[![Shippable branch](https://img.shields.io/shippable/5869721607d5371300747182/master.svg)](https://app.shippable.com/projects/5869721607d5371300747182) [![npm](https://img.shields.io/npm/dt/node-iframe-replacement.svg)](https://www.npmjs.com/package/node-iframe-replacement) [![Linked In](https://img.shields.io/badge/Linked-In-blue.svg)](https://www.linkedin.com/in/john-i-doherty) [![Twitter Follow](https://img.shields.io/twitter/follow/CambridgeMVP.svg?style=social&label=Twitter&style=plastic)](https://twitter.com/CambridgeMVP)
+[![Shippable branch](https://img.shields.io/shippable/5869721607d5371300747182/master.svg)](https://app.shippable.com/projects/5869721607d5371300747182) [![npm](https://img.shields.io/npm/dt/node-iframe-replacement.svg)](https://www.npmjs.com/package/node-iframe-replacement) [![Linked In](https://img.shields.io/badge/Linked-In-blue.svg)](https://www.linkedin.com/in/john-i-doherty) [![Twitter Follow](https://img.shields.io/twitter/follow/MrJohnDoherty.svg?style=social&label=Twitter&style=plastic)](https://twitter.com/MrJohnDoherty)
 
 ## Motivation
 Imagine the scenario: you've built a lovely web app for a business, who later insists it goes live within an iframe of their corp website. You resist, but you're ultimatley forced to bastardize your app to make it work. 
