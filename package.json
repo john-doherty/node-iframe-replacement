@@ -4,7 +4,7 @@
   "description": "Node & express replacement for the HTML iframe",
   "main": "index.js",
   "scripts": {
-    "example": "node example/server.js",
+    "start": "node example/server.js",
     "test": "./node_modules/.bin/jasmine-node --verbose --junitreport test"
   },
   "repository": {
@@ -33,18 +33,18 @@
   },
   "dependencies": {
     "cheerio": "^0.20.0",
-    "express": "^4.14.0",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "is-url": "^1.2.2",
+    "is-url": "^1.2.4",
     "node-cache": "^3.2.1",
     "request-promise": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^3.12.2",
     "eslint-config-airbnb-base": "^11.0.0",
-    "eslint-plugin-import": "^2.2.0",
-    "jasmine-node": "^1.14.5",
-    "nock": "^9.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "jasmine-node": "^1.16.2",
+    "nock": "^9.6.1",
     "supertest": "^2.0.1"
   }
 }

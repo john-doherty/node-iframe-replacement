@@ -73,10 +73,13 @@ The `$` passed to your transform method is a JQuery like object using [cheerio](
 
 ### Run the example
 
-You can try the example for yourself using the following command:
+You can try the example for yourself using the following commands:
 
-```
-node ./node_modules/node-iframe-replacement/example/server.js
+```bash
+git clone https://github.com/john-doherty/node-iframe-replacement
+cd node-iframe-replacement
+npm install
+npm start
 ```
 
 Then visit [http://localhost:8080](http://localhost:8080) in your browser.
