@@ -1,6 +1,6 @@
 {
   "name": "node-iframe-replacement",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Node & express replacement for the HTML iframe",
   "main": "index.js",
   "scripts": {
